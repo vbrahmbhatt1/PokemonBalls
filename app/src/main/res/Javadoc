@@ -1,0 +1,22 @@
+Group 01 -Project 5
+
+Professor Bob Yacobellis
+Rocky Vyas
+Yang Li
+Fanyu Zuo
+Juan Vaca
+Valay Brahmbhatt
+
+5/2/17
+
+Report for Android Monsters Game
+
+In the final project we were tasked with creating a Monster Android game. In order to change up the final project instead of monsters, we decided the player will collect Pokeballs a reference from Pokemon ( a 1990s cartoon about creatures that live inside balls people use to collect them and fight each other with). The game will have Pokeballs for the player to collect. The game needed to have a playing field and  Pokeballs are found moving around the field.
+When the user clicks on a Pokeball, it disappears and the user's score is incremented hence showing that it was collected. The Pokeballs exist in two different states. As for the assigned format, we stuck to the Yellow Balls and Green Balls. A “vulnerable” (Yellow)  state and a “protected” (Green) state. In the vulnerable state the Pokeballs would disappear when the user clicked on it and if the Pokeballs is in the protected state it does not disappear upon being clicked. Before continuing, like stated earlier Pokeballs are collected instead of killing monsters. The scoring is kept the same. Pokeball taken is scored the same as killing a monsters.
+
+
+In the the DotTests.Java, the tesPokeKillableState() sets the function of collecting the Pokeballs. So if in safe state the, Green Ball can’t be collected. If the Pokeball becomes exists in the Yellow Ball state it can be claimed. So in essence we used the same topics we learned in the course. We used multiple design elements into the project to make it fully functional. We chose to follow the model view controller vs model view adapter. The player interacts with with Pokeball and as the game levels up the speed of Pokeballs. This part is incremental as the levels up the speed increases. The game also rotates with the the emulator so if the player wants to to rotate the fun, the game will become widescreen. The Pokeballs disappear and the the score is added to the incrementally per hit. The Dotgenerator.Java is the file that moves the Pokeballs around and this is the file that can be tested for the Pokeballs behavior. Concurrency is here is the time will always continue going down. The MVC is the interactions between the unprotected state and the score that is increased. MVA is the function that decreases the number of balls in the screen up to the point when there is none left so after that the game resets and starts all over.
+
+
+
+In hindsight this was very tough project that required us to use of multiple design implementations. It took us a while to understand and write the code. The main part was to create our own game that were the main requirements for the assignment and like I said the code the is exactly the same as other monster games but we just changed the objectives because they can be interpreted as the same.
